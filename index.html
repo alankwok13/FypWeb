@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>fyp_demo</title>
+    <link rel="stylesheet" type="text/css" href="bulbeffect.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">//匯入bootstrap
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>//匯入jQuery
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <style>
         body{
             background-color: rgb(33,44,55);
@@ -16,8 +22,8 @@
         .box{
             width:627px;
             height:320px;
-            border:1px solid #ddd;
-            margin:10px auto;
+            border:0px solid #ddd;
+            margin:30px auto;
             position: relative;
         }
         
@@ -86,6 +92,16 @@
             overflow:hidden;
         }
         
+
+        
+        .box2{
+           width:800px;
+           height:130px;
+            border:1px solid #ddd;
+            margin:10px auto;
+            position: relative;
+        }
+        
         .move{
             width:10000px;
             position: absolute;
@@ -105,11 +121,50 @@
             float:left;
         }
         
+        .nav navbar-nav navbar-right{
+            float:right;
+        }
+        
     </style>
 </head>
+
 <body>
-    <font color="#FFFFFF"><h1>十月新番</h1></font> 
-    
+
+<div class="nav navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="nav navbar-nav">
+                <font><h7>A</h7></font> 
+                <font><h7>N</h7></font> 
+                <font><h7>I</h7></font> 
+                <font><h7>M</h7></font> 
+                <font><h7>E</h7></font> 
+                <font><h7>H</h7></font> 
+                <font><h7>U</h7></font> 
+                <font><h7>D</h7></font> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <div class="nav navbar-nav navbar-right">
+                   
+                   <h4>
+                    <a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a>
+                    <a data-toggle="tab" href="#">Log out</a>
+                    <a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> </a></h4>
+                </div>
+            </div>
+        </div>
+    </div>  
+   
+       
     <div class="box">
         <div class="imglist" id='imglist'>
             <ul>
